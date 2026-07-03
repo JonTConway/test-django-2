@@ -6,7 +6,7 @@ pipeline{
   stages{
     stage('Checkout Out'){
       steps{
-        git branch: 'main', url: 'https://github.com/Parth2k3/test-django'
+        git branch: 'main', url: 'https://github.com/JonTConway/test-django-2'
       }
     }
     stage('Set up VENV'){
